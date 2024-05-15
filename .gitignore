@@ -1,0 +1,14 @@
+database/catalog/*
+!database/catalog/.gitkeep
+database/dumps/*
+!database/dumps/.gitkeep
+database/functions/*
+!database/functions/.gitkeep
+database/procedures/*
+!database/procedures/.gitkeep
+database/structure/*
+!database/structure/.gitkeep
+database/triggers/*
+!database/triggers/.gitkeep
+database/views/*
+!database/views/.gitkeep
