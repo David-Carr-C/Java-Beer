@@ -44,7 +44,7 @@ public class SecurityConfig {
                     auth.requestMatchers("/api/user").hasAuthority("ROLE_ADMIN");
                     auth.requestMatchers("/api/user").hasAuthority("ADMIN");
                     auth.requestMatchers("/user").hasRole("ADMIN"); // FALTO QUE LE AGREGUE /api
-                    //auth.requestMatchers("/api/user").hasAuthority("ADMIN");
+                    auth.requestMatchers("/api/user").hasAuthority("ADMIN");
                     //auth.anyRequest().authenticated();
                 })
                 .addFilterBefore(jwtAuthorizationFilter, UsernamePasswordAuthenticationFilter.class)
